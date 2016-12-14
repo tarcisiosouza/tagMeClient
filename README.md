@@ -33,6 +33,7 @@ TagmeAnnotator annotation = new TagmeAnnotator ("en");
 ```
 And then get the annotations:
 ```
+String test = "Nelson Mandela was the father of the current democratic South Africa that replaced the odious apartheid state.";
 annotation.annotate(test);
 List<Annotation> annots = annotation.getAnnots();
 AnnotatedText ann_text = annotation.getAnn_text();
